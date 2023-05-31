@@ -106,6 +106,7 @@ public:
             if (Triangle::RightFigure()) {
                 return true;
             }
+            else return false;
         }
         else {
             return false;
@@ -122,6 +123,7 @@ public:
             if (Triangle::RightFigure()) {
                 return true;
             }
+            else return false;
         }
         else {
             return false;
@@ -205,6 +207,7 @@ public:
             if (Quadrangle::RightFigure()) {
                 return true;
             }
+            else return false;
         }
         else {
             return false;
@@ -222,6 +225,7 @@ public:
             if (Parallelogram::RightFigure()) {
                 return true;
             }
+            else return false;
         }
         else {
             return false;
@@ -238,6 +242,7 @@ public:
             if (Parallelogram::RightFigure()) {
                 return true;
             }
+            else return false;
         }
         else {
             return false;
@@ -254,6 +259,7 @@ public:
             if (Rectangle::RightFigure()) {
                 return true;
             }
+            else return false;
         }
         else {
             return false;
